@@ -1,7 +1,8 @@
-import { heroes } from "./data/heroes";
+const activo =true;
+//de esta forma puedo ejecutar cuando necesito evaluar un if y un else
 
-const getHeroeById=( id )=>{
-    return heroes.find()
-}
+//const mensaje =activo?'Mensaje':false;
 
-console.log( getHeroeById(2) );
+//de esta forma puedo ejecutar cuando solo necesito evaluar un if
+const mensaje =activo&&'Mensaje';
+console.log(mensaje);
